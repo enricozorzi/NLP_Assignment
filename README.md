@@ -34,3 +34,15 @@ I used the following performance indicators:
 
 ## Usage as a Probabilistic Language Model
 This Classifier is able to distinguishing only if a sentence  probably appartain to ENGLISH or NON-ENGLISH
+
+
+# Assignment 2
+This code generates a syntactic tree for input sentences in different languages, using NLTK and Spacy libraries.
+
+The pipeline generates the syntactic tree of the sentence, as a tree with root in S for sentence, and leaves on the tokens labeled with a single Part-of-speech. The generation of the tree passes through a Pure Symbolic model. The grammar has been customized to match specific characteristics of the different languages.
+
+The supported languages in this implementation are English, French, German and Italian.
+
+## Dependencies
+spacy
+nltk
