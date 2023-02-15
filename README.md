@@ -35,7 +35,7 @@ I used the following performance indicators:
 ## Usage as a Probabilistic Language Model
 This Classifier is able to distinguishing only if a sentence  probably appartain to ENGLISH or NON-ENGLISH
 
-
+---
 # Assignment 2
 This code generates a syntactic tree for input sentences in different languages, using NLTK and Spacy libraries.
 
